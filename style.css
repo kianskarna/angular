@@ -1,0 +1,118 @@
+
+
+#container {
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  #container {
+    width: 900px;
+     margin-right: auto;
+  margin-left: auto;
+  }
+}
+@media (min-width: 992px) {
+  #container {
+    width: 970px;
+     margin-right: auto;
+     margin-left: auto;
+  margin-left: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  #container {
+    width: 1200px;
+    margin-left: auto;
+    margin-left: 170px;
+  }
+}
+
+
+
+@media (min-width: 768px) 
+  {#form{
+    width: 300px;
+  }
+  }
+   @media (min-width: 768px) 
+  {#email{
+    width: 300px;
+  }
+  }
+  @media (min-width: 768px) 
+  {#captcha{
+    margin: 20px -300px;
+  }
+  }
+
+  @media (min-width: 868px) 
+  {#captcha{
+    margin: 20px -300px;
+  }
+  }
+
+   @media (min-width: 100px)
+   {
+    #tabel{
+      width: 1500px;
+     
+    }
+  }
+
+  @media (min-width: 200px) and (max-width: 600px) {
+    #tabel {
+      font-size: 8px;
+      width: 8%;
+    }
+
+    .desc:after {
+      content:" In fact, it's between 500px and 600px wide.";
+    }
+  }
+  @media (min-width: 200px) and (max-width: 600px) {
+    #item {
+    font-size: 8px;
+    margin: auto;
+    text-align: left;
+    height: 18px;
+    bottom: 10px;
+    }
+
+
+    .desc:after {
+      content:" In fact, it's between 500px and 600px wide.";
+    }
+  }
+
+
+   @media (min-width: 200px) and (max-width: 600px) {
+    #item2 {
+    font-size: 8px;
+    margin:auto;
+    text-align: top;
+    height: 18px;
+    }
+
+
+    .desc:after {
+      content:" In fact, it's between 500px and 600px wide.";
+    }
+  }
+
+@media (min-width: 800px){
+  #item2{
+    margin-left: 10px;
+
+  }
+}
+
+
+<style>
+#email.ng-invalid{
+    background-color: pink;
+}
+#email.ng-valid {
+    background-color: lightgreen;
+}
