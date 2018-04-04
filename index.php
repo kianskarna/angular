@@ -5,7 +5,7 @@
 Developer:  Ehtesham Mehmood
 Site:       PHPCodify.com
 Script:     Angularjs Login Script using PHP MySQL and Bootstrap
-File:       index.php
+File:       index.php /// kians azizatikarna
 */
  ?>
 <!DOCTYPE html>
